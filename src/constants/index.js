@@ -46,7 +46,7 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "164/A Kandy Road Kalagedihena, Thihariya, Gampaha District, Western Province, Sri Lan",
-  phoneNo: "94 77 114 8418 ",
+  phoneNo: "+94 77 114 8418 ",
   email: "abdullahahfj@gmail.com",
 };
 
