@@ -1,7 +1,7 @@
 import { FaNodeJs, FaPhp, FaJava, FaPython } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { RiReactjsLine, RiJavascriptLine } from "react-icons/ri";
-import { SiDotnet, SiMongodb, SiExpress, SiJquery, SiBootstrap, SiMaterialformkdocs, SiFirebase} from "react-icons/si";
+import { SiDotnet, SiMongodb, SiExpress, SiNumpy, SiPandas, SiJquery, SiBootstrap, SiMaterialformkdocs, SiFirebase} from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import { motion } from "framer-motion";
 
@@ -130,6 +130,22 @@ const Technologies = () => {
                  className="text-center transition-transform duration-50 hover:scale-110">
                     <SiMaterialformkdocs className="text-7xl text-blue-400" />
                     <strong className="text-blue-400">Material-UI</strong>
+                </motion.div>
+                <motion.div
+                 initial="initial"
+                 animate="animate"
+                 variants={iconVariants(4)}
+                 className="text-center transition-transform duration-50 hover:scale-110">
+                    <SiNumpy className="text-7xl text-cyan-400" />
+                    <strong className="text-cyan-400">NumPy</strong>
+                </motion.div>
+                <motion.div
+                 initial="initial"
+                 animate="animate"
+                 variants={iconVariants(3)}
+                 className="text-center transitio n-transform duration-50 hover:scale-110">
+                    <SiPandas className="text-7xl text-indigo-600" />
+                    <strong className="text-indigo-600">Pandas</strong>
                 </motion.div>
 
                 {/* Database Technologies */}

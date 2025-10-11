@@ -3,12 +3,20 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `A highly motivated Data Science undergraduate with a strong foundation in software development. Passionate about solving complex problems, building scalable applications, and leveraging data-driven insights to drive innovation. Experienced in designing and developing software solutions, working with databases, and integrating modern technologies to enhance efficiency and user experience. Eager to apply analytical and problem-solving skills to real-world challenges in both software engineering and data science.`;
+export const HERO_CONTENT = `A motivated Data Science undergraduate with a strong software development foundation. Passionate about solving complex problems, building scalable applications, and turning data into actionable insights. Experienced in software design, database management, and integrating modern technologies to enhance efficiency and user experience. Eager to apply analytical skills to real-world challenges in software engineering and data science.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 
 export const PROJECTS = [
+  {
+    title: "Food Supply Chain Management (Blockchain, Flask, and React)",
+    duration: "06/2024 - 08/2024",
+    link: "https://github.com/Abdullah-ahfj/Food-Supply-Chain-Management-Block-Chain-Flask-and-React",
+    description:
+      "Developed a decentralized Food Supply Chain Management System integrating Blockchain technology with Flask and React. This project enhances transparency and traceability in food logistics by recording immutable transactions across stakeholders such as farmers, distributors, and retailers. The system provides a user-friendly React-based frontend, Flask-powered backend API, and blockchain-based verification to ensure data integrity and trust in the supply chain process.",
+    technologies: ["Blockchain", "Flask", "React", "Python", "Smart Contracts"],
+  },
   {
     title: "Restaurant Review WebApp",
     duration: "01/2024 - 01/2025",
@@ -43,7 +51,6 @@ export const PROJECTS = [
   },
 ];
 
-
 export const CONTACT = {
   address: "164/A Kandy Road Kalagedihena, Thihariya, Gampaha District, Western Province, Sri Lan",
   phoneNo: "+94 77 114 8418 ",
@@ -70,6 +77,14 @@ export const EDUCATION = [
 
 export const COURSES = [
   {
+    title: "30 Days Challenge in Data Analytics",
+    provider: "Conducted by Novitech R&D Pvt. Ltd. | April 26, 2025 – May 30, 2025",
+  },
+  {
+    title: "Artificial Intelligence Engineer Course Series - Course 1",
+    provider: "Provided by Sri Lanka Institute of Information Technology (SLIIT) | Aug 26, 2025 – Sep 30, 2025",
+  },
+  {
     title: "Python for Beginners",
     provider: "Centre for Open & Distance Learning (CODL), University of Moratuwa, Sri Lanka",
   },
@@ -82,3 +97,4 @@ export const COURSES = [
     provider: "Covers full-stack development with HTML, CSS, JavaScript, Node.js, React, MongoDB, and more. Provided by Udemy.",
   },
 ];
+

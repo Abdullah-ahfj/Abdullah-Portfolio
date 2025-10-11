@@ -4,7 +4,7 @@ import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
 const downloadAlert = () => {
-  alert("You are not subscribed!")
+  prompt("Enter Your Email: ")
 }
 
 const containerVariants = {
@@ -56,7 +56,7 @@ const Hero = () => {
           <motion.span
            variants={childVariants}
            className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
-            Software Engineering and Data Science student
+            Data Science Undergraduate and Software Engineer
           </motion.span>
           <motion.p
            variants={childVariants}

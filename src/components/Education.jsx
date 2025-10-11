@@ -52,18 +52,20 @@ const Education = () => {
           {EDUCATION.map((edu, index) => (
             <motion.div
               key={index}
-              className="mb-6 w-full rounded-2xl bg-white p-6 shadow-lg transition-transform duration-300 hover:scale-105"
+              className="mb-10 w-full rounded-3xl bg-gradient-to-br from-white via-stone-50 to-stone-100 p-8 shadow-xl border border-stone-200 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:border-stone-300"
               variants={cardVariants}
             >
               <motion.h3
-                className="text-2xl font-semibold text-stone-800 flex items-center gap-2"
+                className="text-2xl font-semibold text-stone-800 flex items-center gap-3 mb-2"
                 variants={degreeVariants}
               >
-                <FaUniversity className="text-stone-500" /> {edu.degree}
+                <FaUniversity className="text-stone-600 text-3xl" /> {edu.degree}
               </motion.h3>
-              <p className="text-stone-500 mt-1">{edu.institution}</p>
-              <p className="text-stone-400 mt-2 flex items-center gap-2">
-                <FaCalendarAlt /> {edu.duration}
+
+              <p className="text-stone-600 font-medium mb-1">{edu.institution}</p>
+
+              <p className="text-stone-400 mt-3 flex items-center gap-2 text-sm">
+                <FaCalendarAlt className="text-stone-500" /> {edu.duration}
               </p>
             </motion.div>
           ))}
