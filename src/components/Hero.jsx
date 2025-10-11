@@ -3,6 +3,10 @@ import profilePic from "../assets/abdul.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
+const downloadAlert = () => {
+  alert("You are not subscribed!")
+}
+
 const containerVariants = {
   hidden: {opacity: 0, x: -100},
   visible: {
@@ -61,10 +65,10 @@ const Hero = () => {
           </motion.p>
           <motion.a
             variants={childVariants}
-            href="/AbdullahAbdulHaleemResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             download
+            onClick={downloadAlert}
             className="bg-white rounded-full p-4 text-1xl text-stone-800 font-bold transition-transform duration-50 hover:scale-105"
           >
             Download Resume
