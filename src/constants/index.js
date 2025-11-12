@@ -100,23 +100,24 @@ export const COURSES = [
 
 export const EXPERIENCE = [
   {
-    role: "Full Stack Development Intern",
+    role: "Software Development Intern",
     company: "NoviTech R&D Private Limited",
     duration: "Apr 27, 2025 – May 27, 2025",
     description: [
-      "Completed a one-month internship in full stack development, working on real-world web projects.",
-      "Gained practical experience in both frontend and backend development.",
+      "Completed a one-month internship in software development, contributing to real-world web-based projects.",
+      "Gained hands-on experience in both frontend and backend technologies, enhancing coding efficiency and problem-solving skills.",
     ],
   },
   {
-    role: "Freelancer",
+    role: "Freelance Software Developer",
     company: "Freelancing Platforms",
     duration: "Present",
     description: [
-      "Delivered freelance services including data entry, documentation, small application development, and full-stack web development.",
-      "Improved client communication and developed a portfolio of diverse technical projects.",
+      "Delivered freelance services including web application development, data entry, documentation, and automation scripting.",
+      "Strengthened client communication, project management, and full-cycle software delivery skills while building a diverse technical portfolio.",
     ],
   },
 ];
+
 
 
