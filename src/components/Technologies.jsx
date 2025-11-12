@@ -4,6 +4,8 @@ import { RiReactjsLine, RiJavascriptLine } from "react-icons/ri";
 import { SiDotnet, SiMongodb, SiExpress, SiNumpy, SiPandas, SiJquery, SiBootstrap, SiMaterialformkdocs, SiFirebase} from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import { motion } from "framer-motion";
+import { IoLogoTableau } from "react-icons/io5";
+
 
 const iconVariants = (duration) => ({
     initial: {y: -10},

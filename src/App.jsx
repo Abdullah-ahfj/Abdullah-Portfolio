@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Technologies from './components/Technologies';
 import Projects from './components/Project';
 import Education from './components/Education';
+import Experience from './components/Experience';
 import Contact from './components/Contact';
 
 
@@ -21,6 +22,7 @@ function App() {
       <div className='container mx-auto px-8'>
         <Navbar /> 
         <Hero />
+        <Experience />
         <Education />
         <Technologies />
         <Projects />

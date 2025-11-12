@@ -52,7 +52,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "164/A Kandy Road Kalagedihena, Thihariya, Gampaha District, Western Province, Sri Lan",
+  address: "164/A Kandy Road Kalagedihena, Thihariya, Gampaha District, Western Province, Sri Lanka",
   phoneNo: "+94 77 114 8418 ",
   email: "abdullahahfj@gmail.com",
 };
@@ -97,4 +97,26 @@ export const COURSES = [
     provider: "Covers full-stack development with HTML, CSS, JavaScript, Node.js, React, MongoDB, and more. Provided by Udemy.",
   },
 ];
+
+export const EXPERIENCE = [
+  {
+    role: "Full Stack Development Intern",
+    company: "NoviTech R&D Private Limited",
+    duration: "Apr 27, 2025 – May 27, 2025",
+    description: [
+      "Completed a one-month internship in full stack development, working on real-world web projects.",
+      "Gained practical experience in both frontend and backend development.",
+    ],
+  },
+  {
+    role: "Freelancer",
+    company: "Freelancing Platforms",
+    duration: "Present",
+    description: [
+      "Delivered freelance services including data entry, documentation, small application development, and full-stack web development.",
+      "Improved client communication and developed a portfolio of diverse technical projects.",
+    ],
+  },
+];
+
 
